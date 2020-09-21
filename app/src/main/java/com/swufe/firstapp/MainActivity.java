@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //加分
     private void scoreAdd(int Tage,int score){
-        //Tage:   0:a
+        //Tage:0:a
         if (Tage==0){
             //表示a进行加分
             lastScore_a=score;
