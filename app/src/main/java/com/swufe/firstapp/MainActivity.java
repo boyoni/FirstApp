@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //重置
     private void reset() {
-        //弹出提示框，提示用户你是否要重置
+        //弹出提示框，提示用户是否要重置
         AlertDialog.Builder builder=new AlertDialog.Builder(MainActivity.this);
         builder.setTitle("提示")
                 .setMessage("你确定要重置分数吗?")
